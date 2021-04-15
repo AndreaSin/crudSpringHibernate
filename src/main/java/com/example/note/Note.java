@@ -6,8 +6,8 @@ import javax.persistence.Id;
 
 import lombok.Data;
 
-//Data è projectLombok che crea getter e setter per conto suo, potrebbe anche creare i costruttori con altre annotazioni
-//ricordare cmq di installare Lombok sul pc eseguendo il Jar nella .m2
+// Data è un'annotazione di projectLombok che crea getter e setter per conto suo, potrebbe anche creare i costruttori con altre annotazioni
+// Ricordare di installare Lombok sul pc eseguendo il Jar nella cartella .m2 la prima volta
 @Data
 @Entity
 public class Note {
